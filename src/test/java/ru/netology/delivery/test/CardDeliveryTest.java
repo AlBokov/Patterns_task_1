@@ -27,7 +27,7 @@ public class CardDeliveryTest {
         var validUser = DataGenerator.Registration.generateUser("ru"); // генерация имени
         var daysToAddForFirstMeeting = 4;
         var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting); // Генерации первой даты
-        var daysToAddForSecondMeeting = 10;
+        var daysToAddForSecondMeeting = 7;
         var secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
 
 
