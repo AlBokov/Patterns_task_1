@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.delivery;
 
 public class Main {
     public static void main(String[] args) {
