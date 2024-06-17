@@ -26,7 +26,7 @@ public class CardDeliveryTest {
     void shouldSuccessfulPlanMetting() {
         var validUser = DataGenerator.Registration.generateUser("ru"); // генерация имени
         var daysToAddForFirstMeeting = 4;
-        var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
+        var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting); // Генерации первой даты
         var daysToAddForSecondMeeting = 10;
         var secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
 
